@@ -15,6 +15,7 @@ I love to:
 - DIYing
 - Knitting.
 - Reading novels.
+
   **Knitting** : This is something I have recently developed during COVID times.
   **DOGlover** : I am an avid dog lover, although I do not own one myself which I hope someday I would, but,I quite actively follow few pages of instagram and facebook.
 
