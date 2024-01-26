@@ -1,4 +1,7 @@
 .vscode/
-.DS_Store/
-node-modules/
+.DS_Store
+src/.DS_Store
+node_modules/
+src/styles/.DS_Store
+src/Images/.DS_Store
 package-lock.json

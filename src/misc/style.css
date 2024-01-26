@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: url("../styles/Images/Coffee.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 500px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navigation__items {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #151516;
+  opacity: 70%;
+  border: none;
+  padding: 0.5rem;
+}
+
+.navigation__items > li {
+  margin: 0.5rem;
+}
+
+.navbar > h1 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: #98989b;
+  font-size: 1.2rem;
+}
+
+.navigation__items a {
+  padding: 0.5rem;
+  color: #d7d1d1eb;
+  text-decoration: none;
+  transform: scale(1);
+}
+
+.navigation__items a:hover {
+  background-color: #313132;
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.header--body {
+  margin-top: 10%;
+}
+
+.header--body h1 {
+  color: #d7d1d1eb;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 5rem;
+}
+
+.header--body p {
+  font-size: 2rem;
+  color: #d7d1d1eb;
+  margin: 1rem 0 0 5rem;
+}
+
+.header--body button {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 5rem;
+  border-radius: 1em;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.header--body button:hover {
+  box-shadow: 0 3px 5px rgba(231, 226, 226, 0.894);
+}
+
+.products--items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #f3e0ca;
+  padding: 1rem;
+}
+
+.products--items img {
+  margin: 0.5rem 2.3rem;
+  height: 40px;
+  width: 40px;
+  fill: #362c21;
+}
+
+.products--items p {
+  color: #30261c;
+}
+
+.product--item--wrapper {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.products--list--wrapper {
+  background-color: #f1f0ee;
+}
+
+.products--list--wrapper > p {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #30261c;
+}
+
+.products--list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.products--list div {
+  text-align: center;
+  margin: 0rem 0.5rem;
+  background-color: #f1ede3;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.product--item {
+  margin: 1rem 0rem;
+  height: 300px;
+  width: 220px;
+  object-fit: cover;
+}
+
+.product--item + p {
+  width: 200px;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.product--item-descr {
+  width: 200px;
+  margin-left: 3rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}

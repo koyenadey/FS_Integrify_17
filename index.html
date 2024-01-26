@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaffe Cafe</title>
+    <link ref="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav class="header__navbar">
+        <h1>Kaffe Coffee</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Coffee</a></li>
+          <li><a href="#">Bakery</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+      <hgroup class="header__description">
+          <h1>Welcome!</h1>
+          <p>We serve the richest coffee <br/>in the city!</p>
+        <button>Order now</button>
+      </hgroup>
+    </section>
+    <section class="products">
+      <section>
+        <ul class="product__items">
+          <li>
+            <div role="note" aria-labelledby="hotCoffee">
+              <img src="./src/Images/mug-hot-alt.svg" alt="hotcoffee" class="items" />
+              <p id="hotCoffee">Hot Coffee</p>
+            </div>
+          </li>
+          <li>
+            <div role="note" aria-labelledby="coldCoffee">
+              <img src="./src/Images/coffee.svg" alt="coldcoffee" class="items" />
+              <p id="coldCoffee">Cold Coffee</p>
+            </div>
+          </li>
+          <li>
+            <div role="note" aria-labelledby="snacks">
+              <img src="./src/Images/burrito.svg" alt="savouries" class="items" />
+              <p id="snacks">Savouries</p>
+          </div>
+          </li>
+          <li>
+            <div role="note" aria-labelledby="dessert">
+                <img src="./src/Images/cake-slice.svg" alt="desserts" class="items" />
+                <p id="dessert">Desserts</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="products__list--wrapper">
+        <p>OUR SPECIAL PRODUCTS</p>
+        <section class="products__list">
+          <div role="note" aria-label="dalgonaCoffee">
+            <img
+              src="./src/Images/dalgona-coffee.jpg"
+              alt="Dalgona coffee"/>
+            <p>Dalgona Coffee</p>
+            <p>Pure blend of cream and coffee creating mouth melting experience</p>
+            <div role="note" aria-label="dalgona-priceLabel">
+              <p class="products__list--price">11 eur</p>
+              <button id="dalgona-priceLabel">Add to cart</button>
+            </div>
+          </div>
+          <div role="note" aria-label="IcedMocha">
+            <img
+              class="product--item"
+              src="./src/Images/Iced-Mocha-19.jpg"
+              alt="Iced mocha"
+            />
+            <p>Doubled Iced Mocha</p>
+            <p>Delighful fusion of espresso's boldness & chocolates sweetness</p>
+            <div role="note" aria-label="icedMocha-priceLabel">
+              <p class="products__list--price">15 eur</p>
+              <button id="icedMocha-priceLabel">Add to cart</button>
+            </div>
+          </div>
+          <div role="note" aria-label="caramelCoffee">
+            <img
+              class="product--item"
+              src="./src/Images/frappe.jpg"
+              alt="Caramel coffee"
+            />
+            <p>Caramel Mocha</p>
+            <p>One shot of espresso with two shots of cream & caramels sweetness</p>
+            <div role="note" aria-label="caramelCoffee-priceLabel">
+              <p class="products__list--price">10 eur</p>
+              <button id="caramelCoffee-priceLabel">Add to cart</button>
+            </div> 
+          </div>
+          <div role="note" aria-label="filter-coffee">
+            <img
+              class="product--item"
+              src="./src/Images/filter-coffee.jpeg"
+              alt="Filter coffee"
+            />
+            <p>Filter Coffee</p>
+            <p>A pure, nuanced brew, capturing the essence of coffee with elegance and simplicity</p>
+            <div role="note" aria-labelledby="filterCoffe-priceLabel">
+              <p class="products__list--price">13 eur</p>
+              <button id="filterCoffe-priceLabel">Add to cart</button>
+            </div>
+          </div>
+          <div role="note" aria-label="gulabjamun">
+            <img
+              class="product--item"
+              src="./src/Images/gulabJamun.jpg"
+              alt="gulabjamun"
+            />
+            <p>Gulab Jamun</p>
+            <p>Mouth melting dessert from India</p>
+            <div role="note" aria-labelledby="jamun-priceLabel">
+              <p class="products__list--price">13 eur</p>
+              <button id="jamun-priceLabel">Add to cart</button>
+            </div>
+          </div>
+
+          <div role="note" aria-label="churros">
+            <img
+              class="product--item"
+              src="./src/Images/churros.jpg"
+              alt="curros"
+            />
+            <p>Churros</p>
+            <p>Simple & yummy served with chocolate sauce.</p>
+            <div role="note" aria-labelledby="churros-priceLabel">
+              <p class="products__list--price">11 eur</p>
+              <button id="churros-priceLabel">Add to cart</button>
+            </div>
+          </div>
+
+          <div role="note" aria-label="tiramisu">
+            <img
+              class="product--item"
+              src="./src/Images/tiramisu.jpg"
+              alt="tiramisu"
+            />
+            <p>Tiramisu</p>
+            <p>A cute piece of heaven that can instantly pick you up.</p>
+            <div role="note" aria-labelledby="tiramisu-priceLabel">
+              <p class="products__list--price">9 eur</p>
+              <button id="tiramisu-priceLabel">Add to cart</button>
+            </div>
+          </div>
+
+          <div role="note" aria-label="coffeeCake">
+            <img
+              class="product--item"
+              src="./src/Images/coffeepastry.jpg"
+              alt="coffeeCake"
+            />
+            <p>Coffee Pastry</p>
+            <p>Blended with inhouse best selling coffee with dark chocolate.</p>
+            <div role="note" aria-labelledby="coffeeCake-priceLabel">
+              <p class="products__list--price">12 eur</p>
+              <button id="coffeeCake-priceLabel">Add to cart</button>
+            </div>
+          </div>
+        </section>
+    </section>
+    <footer>
+      <section class="contactUs">
+        <h1>Kaffe Coffee</h1>
+        <ul class="contactUs--list">
+          <li><a href="#">PRIVACY</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">Social Media</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
