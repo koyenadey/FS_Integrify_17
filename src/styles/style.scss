@@ -16,8 +16,6 @@
   background-position: right;
   background-color: variables.$backgroundColor;
   height: 500px;
-  position: sticky;
-  top: 0;
   @include mixins.responsive(variables.$small-screen) {
     height: 400px;
   }

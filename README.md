@@ -9,7 +9,7 @@ This is a mini draft version of an eccomerce cafe. This application is static & 
 - Installation
 - Usage
 - Features
-- UpComing Features
+- Upcoming Features
 - Licenses.
 
 ## Installation
@@ -18,7 +18,7 @@ Please run npm install and the dependencies will be installed in your system.
 
 ## Usage
 
-Please check the deployed site here:
+Please check the deployed site here: https://koyenadey.github.io/FS_Integrify_17/
 If you have landed in index.html,just click on the html page and it will run automatically.
 
 ## Features
@@ -32,6 +32,10 @@ If you have landed in index.html,just click on the html page and it will run aut
 **Order now**: This button directly takes you to the menu which shows all the items visible. You can filter the items on the left pane using filters.
 
 **Footer** : This sections provides more information about the company and its history. You can contact us using CONTACT US link.
+
+## Upcoming Features
+
+Better footer area is going to be there with descriptive links and social media handles.
 
 ## License
 
